@@ -43,7 +43,7 @@ isFloat("+4.54") #Returns True
 
 #Part 3: Data-structures
 
-The last part of this assignment will be building a simple linked list with two python3 classes called *LinkedList* and *Node*. We won't be directly interacting with the *Node* class so you could call that whatever you wish; however, that's what I would recommend.
+The last part of this assignment will be building a simple linked list with two python3 classes called *LinkedList* and *Node*. We won't be directly interacting with the *Node* class so you could call that whatever you wish; however, that's what I would recommend. For reference you should look at the documentation for classes in Python3: https://docs.python.org/3/tutorial/classes.html
 
 An example of your linked list class being used:
 
@@ -80,4 +80,4 @@ Value 1 found
 
 #Submitting code
 
-You should write all of your code in the *assignment1.py* file and submit it to Tyson's Turnin System by the submission date for grading. 
+You should write all of your code in the *assignment1.py* file and submit it to Tyson's Turnin System by the submission date for grading.
