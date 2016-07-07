@@ -42,3 +42,42 @@ isFloat("+4.54") #Returns True
 ```
 
 #Part 3: Data-structures
+
+The last part of this assignment will be building a simple linked list with two python3 classes called *LinkedList* and *Node*. We won't be directly interacting with the *Node* class so you could call that whatever you wish; however, that's what I would recommend.
+
+An example of your linked list class being used:
+
+```python
+ll = LinkedList()
+ll.insert(1)
+ll.insert(2)
+ll.printLL()
+ll.delete(2)
+ll.printLL()
+if ll.search(2):
+	print("Value 2 found")
+else:
+	print("Value 2 not found")
+if ll.search(1):
+	print("Value 1 found")
+else:
+	print("Value 1 not found")
+ll.insert(4)
+ll.printLL()
+print(str(ll.size()))
+```
+
+This simple test of your *LinkedList* should output the following:
+
+```
+2 1
+1
+Value 2 not found
+Value 1 found
+4 1
+2
+```
+
+#Submitting code
+
+You should write all of your code in the *assignment1.py* file and submit it to Tyson's Turnin System by the submission date for grading. 
