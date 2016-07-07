@@ -7,7 +7,7 @@ We are using Python3 vs Python2 as it is where the industry is going and project
 
 #Part 1: Dictionary
 
-This problem is taken from: https://www.hackerrank.com/challenges/defaultdict-tutorial
+This problem is inspired by: https://www.hackerrank.com/challenges/defaultdict-tutorial
 
 Your method should take in values representing the following:
 
@@ -29,4 +29,16 @@ Bob 1
 Hello 2
 ```
 
-#Part 2
+#Part 2: Is Float
+
+This problem is inspired by: https://www.hackerrank.com/challenges/introduction-to-regex
+
+Your method *isFloat* should take in a string *value* and return a boolean if the given string is a Float or not. It is recommended that you leverage the python regular expression library for this; however, it is not required.
+
+```python
+isFloat("4.0O0") #returns False
+isFloat("-1.00") #returns True
+isFloat("+4.54") #Returns True
+```
+
+#Part 3: Data-structures
