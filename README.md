@@ -19,7 +19,7 @@ For an example:
 
 ```python
 alist = ["Hello", "Hello", "Bob"]
-print(stringCount(alist))
+stringCount(alist)
 ```
 
 This should print:
