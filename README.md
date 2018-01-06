@@ -80,6 +80,8 @@ Value 1 found
 
 #Submitting code
 
-You should write all of your code in the *assignment1.py* file and submit it to Tyson's Turnin System by the submission date for grading. 
+You should write all of your code in the *assignment1.py* file and submit it to the github classroom: https://classroom.github.com/a/LWjeHFSN
 
-You should use the exact method names as described in each part of this assignment, failure to do so will mean the grading script will not be able to run your code and you will lose some credit even if I can fix it so that it runs. Additionally, you should make sure that the only class you create is the one for the linked list class described in part 3. Do **NOT** include any testing output and code in your submission as it is unnecessary and only makes grading your assignment more difficult. 
+You should use the exact method names as described in each part of this assignment, failure to do so will mean the grading script will not be able to run your code and you will lose some credit even if I can fix it so that it runs. Additionally, you should make sure that the only class you create is the one for the linked list class described in part 3. 
+
+Do **NOT** include any testing output and code in your submission as it is unnecessary and only makes grading your assignment more difficult. I will take off 10 points for any submissions that include debugging/testing code and output. 
