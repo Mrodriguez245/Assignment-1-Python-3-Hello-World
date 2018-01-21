@@ -5,7 +5,7 @@ This assignment will get you up to speed on some Python3 basics, which should he
 We are using Python3 vs Python2 as it is where the industry is going and projects are starting to support both with the expectation that a shift to Python3 will happen soon.
 
 
-#Part 1: Dictionary
+# Part 1: Dictionary
 
 This problem is inspired by: https://www.hackerrank.com/challenges/defaultdict-tutorial
 
@@ -29,7 +29,7 @@ Bob 1
 Hello 2
 ```
 
-#Part 2: Is Float
+# Part 2: Is Float
 
 This problem is inspired by: https://www.hackerrank.com/challenges/introduction-to-regex
 
@@ -41,7 +41,9 @@ isFloat("-1.00") #returns True
 isFloat("+4.54") #Returns True
 ```
 
-#Part 3: Data-structures
+An excellent resource on regex in python can be found here: https://www.machinelearningplus.com/python-regex-tutorial-examples/
+
+# Part 3: Data-structures
 
 The last part of this assignment will be building a simple linked list with two python3 classes called *LinkedList* and *Node*. We won't be directly interacting with the *Node* class so you could call that whatever you wish; however, that's what I would recommend. For reference you should look at the documentation for classes in Python3: https://docs.python.org/3/tutorial/classes.html
 
@@ -78,7 +80,7 @@ Value 1 found
 2
 ```
 
-#Submitting code
+# Submitting code
 
 You should write all of your code in the *assignment1.py* file and submit it to the github classroom: https://classroom.github.com/a/LWjeHFSN
 
