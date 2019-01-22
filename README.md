@@ -82,8 +82,15 @@ Value 1 found
 
 # Submitting code
 
-You should write all of your code in the *assignment1.py* file and submit it to the github classroom: https://classroom.github.com/a/LWjeHFSN
+If you haven't already create your CINS465 repo through the form on my website, you'll need the GitHub Token given out in lecture to do so.
 
-You should use the exact method names as described in each part of this assignment, failure to do so will mean the grading script will not be able to run your code and you will lose some credit even if I can fix it so that it runs. Additionally, you should make sure that the only class you create is the one for the linked list class described in part 3. 
+The code should be submitted to your CINS465 on a branch named **assignment1**, make sure your case is identical for your branch or I may not find/grade your submission. To do this you can do the following in your repo directory, it assumes you want to add all the code in the directory:
 
-Do **NOT** include any testing output and code in your submission as it is unnecessary and only makes grading your assignment more difficult. I will take off 10 points for any submissions that include debugging/testing code and output. 
+```
+git checkout -b assignment1 #create branch and switch to it
+git add -A #add all
+git commit -m "Assignment 1 Submission" #Commit changes to branch
+git push --set-upstream origin assignment1 #Push code up to assignment2 branch on remote
+```
+
+You should have your code setup such that when cloned in your folder it can be run directly via **python manage runserver**. If you chose to you can containerize your code via docker. If you choose to do this you should have either a **docker-compose.yml** in your root directory for me to launch your project or a **Dockerfile** in your root directory I can build a container from. 
