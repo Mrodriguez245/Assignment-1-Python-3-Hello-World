@@ -93,4 +93,4 @@ git commit -m "Assignment 1 Submission" #Commit changes to branch
 git push --set-upstream origin assignment1 #Push code up to assignment2 branch on remote
 ```
 
-You should have your code setup such that when cloned in your folder it can be run directly via **python manage runserver**. If you chose to you can containerize your code via docker. If you choose to do this you should have either a **docker-compose.yml** in your root directory for me to launch your project or a **Dockerfile** in your root directory I can build a container from. 
+Your *assignment1.py* file will be loaded into a grading script python file as an external library and directly called. Your submission should just provide the correct implementation. Unless the function or method of the class explicitly should print your code should have no debugging output. 
